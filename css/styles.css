@@ -10,6 +10,7 @@
 	--footer-bg: #383838;
 	--line-height: 1.8;
 	--text-color: #6a859c;
+	--we-do-color: #8e8e9c;
 }
 
 @font-face {
@@ -88,7 +89,7 @@ p {
 	background-color: transparent;
 	border-radius: 4px;
 	cursor: pointer;
-  transition:opacity 0.4s ease;
+	transition: opacity 0.4s ease;
 }
 
 .btn-bg {
@@ -188,4 +189,76 @@ p {
 .hero__btn-wrapper {
 	display: flex;
 	align-items: center;
+}
+
+/* we-do */
+.we-do {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.we-do__info {
+	text-align: center;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+
+.we-do__title {
+	font-weight: 400;
+	color: var(--gray-color);
+	font-size: 30px;
+	line-height: 1.2;
+	letter-spacing: 5px;
+	margin-bottom: 17px;
+}
+
+.we-do__text {
+	font-size: 17px;
+	letter-spacing: 3px;
+	color: var(--we-do-color);
+	line-height: 1.2;
+}
+
+.we-do__list {
+	display: flex;
+}
+
+.we-do__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 300px;
+	width: 100%;
+	border: 1px solid #dcebf7;
+	border-radius: 5px;
+	padding-top: 36px;
+	padding-bottom: 24px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: center;
+}
+
+.we-do__item:not(:last-child) {
+	margin-right: 20px;
+}
+
+.we-do__img {
+	width: 94px;
+	height: 94px;
+	object-fit: cover;
+	margin-bottom: 19px;
+}
+
+.we-do__item-title {
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 7px;
+	line-height: 1.5;
+	color: var(--gray-color);
+	margin-bottom: 14px;
+}
+
+.we-do__item-text {
+	line-height: var(--line-height);
 }
