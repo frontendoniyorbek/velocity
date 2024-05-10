@@ -12,6 +12,7 @@
 	--text-color: #6a859c;
 	--we-do-color: #8e8e9c;
 	--velosity-about-link: #668cad;
+	--footer-text: #9e9e9e;
 }
 
 @font-face {
@@ -497,4 +498,18 @@ p {
 
 .velocity-about__img {
 	margin-right: 10px;
+}
+
+/* FOOTER */
+.site-footer {
+	background-color: var(--footer-bg);
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.site-footer__text {
+	font-size: 15px;
+	line-height: 1.3;
+	color: var(--footer-text);
 }
